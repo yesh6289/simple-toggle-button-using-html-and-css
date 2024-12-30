@@ -1,4 +1,4 @@
-![Screenshot 2024-12-30 210243](https://github.com/user-attachments/assets/28e25a66-1fbf-49df-8b3a-5ba028964134)# simple-toggle-button-using-html-and-css
+# simple-toggle-button-using-html-and-css
 Simple animated toggle button using html and css
 
 Toggle Button with Animation
