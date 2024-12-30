@@ -1,0 +1,42 @@
+body{
+    height : 100vh;
+    width : 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.switch{
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 200px;
+    background: gray;
+    border-radius: 80px;
+    transition: 1s;
+}
+
+.switch::before{
+    position: absolute;
+    content: "";
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 50%;
+    left: 5px;
+    top : 5px;
+    transition: 0.5s;
+}
+
+input{
+    display: none;
+}
+
+input:checked + .switch{
+    background-color: blue;
+}
+
+input:checked + .switch::before{
+    left: 105px;
+}
